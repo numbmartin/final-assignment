@@ -18,7 +18,7 @@ function About() {
                     <p className="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                 </div>
             </div>
-            <div className="text-center mt-4"><Link className="btn btn-outline-light btn-xl" role="button" href="/"><i className="fa fa-download me-2"></i><span>Download Now!</span></Link></div>
+            <div className="text-center mt-4"><Link className="btn btn-outline-light btn-xl" role="button" to="/"><i className="fa fa-download me-2"></i><span>Download Now!</span></Link></div>
         </div>
     </section>
         
