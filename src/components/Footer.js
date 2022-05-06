@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 
 function Footer() {
@@ -15,10 +16,10 @@ function Footer() {
                 <div className="col-md-4 mb-5 mb-lg-0">
                     <h4 className="text-uppercase">Around the Web</h4>
                     <ul className="list-inline">
-                        <li className="list-inline-item"><a className="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i className="fa fa-facebook fa-fw"></i></a></li>
-                        <li className="list-inline-item"><a className="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i className="fa fa-google-plus fa-fw"></i></a></li>
-                        <li className="list-inline-item"><a className="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i className="fa fa-twitter fa-fw"></i></a></li>
-                        <li className="list-inline-item"><a className="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i className="fa fa-dribbble fa-fw"></i></a></li>
+                        <li className="list-inline-item"><Link className="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i className="fa fa-facebook fa-fw"></i></Link></li>
+                        <li className="list-inline-item"><Link className="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i className="fa fa-google-plus fa-fw"></i></Link></li>
+                        <li className="list-inline-item"><Link className="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i className="fa fa-twitter fa-fw"></i></Link></li>
+                        <li className="list-inline-item"><Link className="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i className="fa fa-dribbble fa-fw"></i></Link></li>
                     </ul>
                 </div>
                 <div className="col-md-4">
