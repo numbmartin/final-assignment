@@ -12,6 +12,12 @@ function App() {
   return (
     <>
     <Nav/>
+    <Intro/>
+    <Stories/>
+    <About/>
+    <Contact/>
+    <Footer/>
+
     </>
   );
 }
