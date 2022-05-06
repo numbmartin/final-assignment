@@ -8,7 +8,7 @@ function Stories() {
         <>
         <section id="portfolio" className="portfolio">
         <div className="container">
-            <h2 className="text-uppercase text-center text-secondary">Portfolio</h2>
+            <h2 className="text-uppercase text-center text-secondary">Stories</h2>
             <hr className="star-dark mb-5"></hr>
             <div className="row">
                 <div className="col-md-6 col-lg-4"><Link className="d-block mx-auto portfolio-item" to="/portfolio-modal-1" dataBsToggle="modal">
