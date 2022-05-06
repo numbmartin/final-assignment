@@ -1,5 +1,5 @@
 import React from "react";
-import ".\components\css\bootstrap"
+import "./css/bootstrap.css"
 
 function Contact() {
 
